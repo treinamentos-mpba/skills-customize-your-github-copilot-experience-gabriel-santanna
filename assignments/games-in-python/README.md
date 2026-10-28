@@ -1,19 +1,42 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Construa um jogo da Forca em Python para praticar manipulação de strings, loops, condicionais, entrada de dados e seleção aleatória.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Implementar as Regras do Jogo
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Crie a lógica principal do jogo: selecione uma palavra secreta de uma lista predefinida e permita que o jogador descubra suas letras antes de esgotar seis tentativas incorretas.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra de uma lista predefinida.
+- Mostrar cada letra ainda não descoberta como `_` e revelar as letras acertadas nas posições correspondentes.
+- Aceitar palpites de uma letra por vez e atualizar o progresso após cada palpite.
+- Reduzir o número de tentativas restantes somente quando o palpite estiver incorreto.
+- Encerrar a partida quando a palavra for descoberta ou quando não houver tentativas restantes.
+
+### 🛠️ Conduzir a Partida
+
+#### Descrição
+Integre a lógica em um fluxo interativo que informe o estado do jogo e comunique claramente o resultado ao jogador.
+
+#### Requisitos
+O programa concluído deve:
+
+- Exibir as tentativas incorretas restantes a cada rodada.
+- Informar quando o jogador acertar ou errar uma letra.
+- Exibir uma mensagem de vitória quando todas as letras forem descobertas.
+- Exibir uma mensagem de derrota e revelar a palavra secreta quando as tentativas acabarem.
+- Impedir que palpites repetidos sejam contabilizados novamente como erro.
+
+Exemplo de progresso para a palavra `python` após acertar `p` e `o`:
+
+```text
+p _ _ _ o _
+```
