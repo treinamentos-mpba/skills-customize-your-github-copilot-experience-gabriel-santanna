@@ -1,4 +1,3 @@
-
 # 📘 Assignment: Jogo da Forca
 
 ## 🎯 Objetivo
@@ -34,9 +33,3 @@ O programa concluído deve:
 - Exibir uma mensagem de vitória quando todas as letras forem descobertas.
 - Exibir uma mensagem de derrota e revelar a palavra secreta quando as tentativas acabarem.
 - Impedir que palpites repetidos sejam contabilizados novamente como erro.
-
-Exemplo de progresso para a palavra `python` após acertar `p` e `o`:
-
-```text
-p _ _ _ o _
-```
