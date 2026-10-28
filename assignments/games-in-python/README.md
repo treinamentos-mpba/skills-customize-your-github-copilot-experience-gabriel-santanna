@@ -4,7 +4,7 @@
 
 Construa um jogo da Forca em Python para praticar manipulação de strings, loops, condicionais, entrada de dados e seleção aleatória.
 
-## 📝 Tasks
+## 📝 Tarefas
 
 ### 🛠️ Implementar as Regras do Jogo
 
@@ -15,7 +15,7 @@ Crie a lógica principal do jogo: selecione uma palavra secreta de uma lista pre
 O programa concluído deve:
 
 - Selecionar aleatoriamente uma palavra de uma lista predefinida.
-- Mostrar cada letra ainda não descoberta como `_` e revelar as letras acertadas nas posições correspondentes.
+- Mostrar cada letra ainda não descoberta e revelar as letras acertadas nas posições correspondentes.
 - Aceitar palpites de uma letra por vez e atualizar o progresso após cada palpite.
 - Reduzir o número de tentativas restantes somente quando o palpite estiver incorreto.
 - Encerrar a partida quando a palavra for descoberta ou quando não houver tentativas restantes.
